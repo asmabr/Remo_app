@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:context="com.example.yoser.remo.HomeActivity"
+
+    android:background="@drawable/im4">
+
+
+        <Button
+            android:id="@+id/buttonSignIN"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="signIn"
+            style="@android:style/Widget.Button"
+            android:text="Sign in"
+            android:textSize="24sp"
+            android:background="@color/colorAccent"/>
+
+        <Button
+        android:id="@+id/buttonSignUP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+            style="@android:style/Widget.Button"
+            android:text="Sign up"
+            android:textSize="24sp"
+            android:background="@android:color/holo_orange_dark"
+            android:textColorLink="@android:color/holo_orange_dark" />
+
+</LinearLayout>

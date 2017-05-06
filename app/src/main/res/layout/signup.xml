@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img3"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:textSize="24sp"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        tools:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        android:textColorHint="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="60dp"
+        android:text="Create Account"
+        android:textSize="24sp"
+        style="@android:style/Widget.Button"
+        android:textColor="@android:color/background_dark"
+        tools:textColor="@android:color/background_dark"
+        android:textColorHighlight="@color/colorAccent"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>
